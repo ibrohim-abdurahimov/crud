@@ -1,0 +1,78 @@
+.wrapper{
+    margin: 50px auto;
+    background-color: blueviolet;
+    width: 600px;
+    padding: 10px ;
+    border-radius: 10px;
+}
+.title{
+    text-align: center;
+    color: #fff;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.add__inp{
+    overflow: hidden;
+    outline: none;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 7px;
+}
+.add__btn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 4px 25px;
+    font-weight: 600;
+}
+.add__btn:active{
+    background-color: #fff;
+    color: green;
+}
+.collection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card__wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.read{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.edit__btn{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 4px 20px;
+    font-weight: 600;
+}
+.edit__btn:active{
+    background-color: #fff;
+    color: blue;
+}
+.del__btn{
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 4px 20px;
+    font-weight: 600;
+}
+.del__btn:active{
+    background-color: #fff;
+    color: red;
+}
